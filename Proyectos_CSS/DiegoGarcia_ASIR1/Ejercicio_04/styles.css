@@ -2,7 +2,7 @@
 /* ASIR 1 */
 /* 05 - 03 - 2025 */
 /* Ejercicio 4 */
-/* Version 01 */
+/* Version 02 */
 
 /* Usa display:flex en el contenedor*/
 .Contenedor{
@@ -14,6 +14,19 @@
         background-color:aquamarine;
 
 }
+
+/*Re-ajuste*/
+
+.FlexBoxes {
+    width:100px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    color: white;
+
+}
+
+
 
 /* Colores */
 .Rojo {
