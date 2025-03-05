@@ -14,3 +14,13 @@ p {
     color: blue;
 }
 
+/* Aplica un margen de 20px a todos los elementos h1 */
+h1 {
+    margin: 20px;
+}
+
+/* Añade un borde de 2px solido negro a todos los elementos div */
+div {
+    border: 2px solid black;
+}
+
