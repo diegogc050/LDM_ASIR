@@ -2,8 +2,10 @@
 /* ASIR 1 */
 /* 05 - 03 - 2025 */
 /* Ejercicio 6 */
-/* Version 03 */
+/* Version 05 */
 
+
+/* Aseguramos los margenes y padding para toda la pagina */
 * {
 margin: 0;
 padding: 0;
@@ -11,12 +13,14 @@ box-sizing: border-box;
 font-family: Arial, sans-serif;
 
 }
+
+/*Contenedor de la pagina*/
 .Contenedor{
     display:flex;
-    flex-direction: column;
+    flex-direction: column; /*Organizamos los elementos en columnas*/
     height: 100%;
 }
-
+/*Barra de navegación "sidebar"*/
 .sidebar{
     width: 100%;
     background: lightgreen;
@@ -24,20 +28,20 @@ font-family: Arial, sans-serif;
     padding: 15px;
     text-align: center;
 }
-
+/*Dentro de la barra de navegación , la lista*/
 .sidebar ul {
-    list-style: none;
+    list-style: none; /*Eliminamos los estilos*/
     padding: 0;
-    display: flex;
+    display: flex; /*Alineamos los elementos*/
     justify-content: center;
     gap:20px;
 }
-
+/*Elementos de la lista de navegación*/
 .sidebar ul li {
     margin: 10px 0;
-    display: inline;
+    display: inline; /*Indicamos que los elementos esten en linea*/
 }
-
+/*Enlaces dentro de la barra de navegacion*/
 .sidebar ul li a {
     color: white;
     font-size: 15px;
@@ -49,7 +53,7 @@ font-family: Arial, sans-serif;
     display: flex;
     flex-direction: column;
 }
-/*Header*/
+/*Header / Cabecera*/
 
 .header{
     background: lightblue;
@@ -69,19 +73,20 @@ font-family: Arial, sans-serif;
     flex-grow: 1;
 }
 
+/*Tarjetas / Contenido del grid*/
 .Tarjeta {
     background: lightsalmon;
     padding: 20px;
     text-align: center;
     transition: transform 0.3s, background 0.3s;
 }
-
+/*Efecto cursor encima*/
 .Tarjeta:hover{
     transform: scale(1.05);
     background: lightseagreen;
 }
 
-/*Modo Oscuro*/
+/*Modo Oscuro, donde cambiamos todos los colores a tonos oscuros*/
 
 .dark-mode {
     background: black;
