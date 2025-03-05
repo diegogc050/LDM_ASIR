@@ -2,7 +2,7 @@
 /* ASIR 1 */
 /* 05 - 03 - 2025 */
 /* Ejercicio 5 */
-/* Version 03 */
+/* Version 04 */
 
 /* Cuadricula 3 columnas x 2 filas */
 .Grid {
@@ -16,6 +16,18 @@
     height: 100%;
 }
 
-1 {
-    background-color: blue ;
+#1{
+    background-color: lightblue;
+}
+
+#2{
+    background-color: lightcoral;
+}
+
+#3{
+    background-color: lightcyan;
+}
+
+#4{
+    background-color: lightgoldenrodyellow;
 }
