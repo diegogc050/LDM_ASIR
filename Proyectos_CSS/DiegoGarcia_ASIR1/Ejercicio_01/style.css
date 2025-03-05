@@ -1,0 +1,16 @@
+/* Diego García Campos */
+/* ASIR 1 */
+/* 05 - 03 - 2025 */
+/* Ejercicio 1 */
+/* Version 01 */
+
+/* Define el color de fondo para toda la pagina */
+body {
+    background-color:burlywood;
+}
+
+/* Establece el color del texto a azul en los párrafos*/
+p {
+    color: blue;
+}
+
