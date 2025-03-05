@@ -4,37 +4,10 @@
 /* Ejercicio 5 */
 /* Version 01 */
 
-/* Usa display:flex en el contenedor*/
-.Contenedor{
-
-        display: flex;
-        justify-content: space-around;
-        height: 200px;
-        background-color:aquamarine;
-
-}
-
-/*Re-ajuste*/
-
-.Contenedor > div {
-    width:100px;
-    height: 100px;
-    line-height: 100px;
-    text-align: center;
-    color: white;
-    margin: 50px;
-
-}
-
-
-
-/* Colores */
-.Rojo {
-    background-color: red;
-}
-.Azul {
-    background-color: blue;
-}
-.Verde {
-    background-color: green;
+/* Cuadricula 3 columnas x 2 filas */
+.Grid {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 100px 200px;
+    gap: 5px;
 }
