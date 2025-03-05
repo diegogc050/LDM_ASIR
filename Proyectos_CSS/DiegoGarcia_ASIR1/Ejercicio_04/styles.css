@@ -3,3 +3,15 @@
 /* 05 - 03 - 2025 */
 /* Ejercicio 4 */
 /* Version 01 */
+
+/* Usa display:flex en el contenedor*/
+.Contenedor{
+
+        display: flex;
+        justify-content: space-around;
+        height: 200px;
+        align-items: center;
+        background-color:aquamarine;
+
+}
+/* Distribuye los elementos uniformamente con justify-content:space-around*/
