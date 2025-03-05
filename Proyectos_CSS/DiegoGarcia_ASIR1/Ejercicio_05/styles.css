@@ -1,0 +1,40 @@
+/* Diego García Campos */
+/* ASIR 1 */
+/* 05 - 03 - 2025 */
+/* Ejercicio 5 */
+/* Version 01 */
+
+/* Usa display:flex en el contenedor*/
+.Contenedor{
+
+        display: flex;
+        justify-content: space-around;
+        height: 200px;
+        background-color:aquamarine;
+
+}
+
+/*Re-ajuste*/
+
+.Contenedor > div {
+    width:100px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    color: white;
+    margin: 50px;
+
+}
+
+
+
+/* Colores */
+.Rojo {
+    background-color: red;
+}
+.Azul {
+    background-color: blue;
+}
+.Verde {
+    background-color: green;
+}
