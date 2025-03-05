@@ -2,11 +2,12 @@
 /* ASIR 1 */
 /* 05 - 03 - 2025 */
 /* Ejercicio 1 */
-/* Version 01 */
+/* Version 02 */
 
 /* Define el color de fondo para toda la pagina */
 body {
     background-color:burlywood;
+    font-family: Arial, sans-serif;
 }
 
 /* Establece el color del texto a azul en los párrafos*/
