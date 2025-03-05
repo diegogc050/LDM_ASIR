@@ -11,9 +11,14 @@
 }
 
 /* Cambia el color del texto del párrafo dentro del div id caja a verde */
-.caja p {
+#caja p {
     color:green
 }
 /* Haz que todos los h1 tengan un tamaño de fuente de 30px */
-
+h1 {
+    font-size:30px;
+}
 /*Aplica un fondo gris a todos los elementos p dentro de div*/
+div p {
+    background-color:grey;
+}
