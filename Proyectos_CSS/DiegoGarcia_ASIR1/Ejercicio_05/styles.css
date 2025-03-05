@@ -4,7 +4,7 @@
 /* Ejercicio 5 */
 /* Version 05 */
 
-/* Cuadricula 3 columnas x 2 filas */
+/* Estilos para la cuadrícula */
 .Grid {
     display: grid;
     grid-template-columns: repeat(3,1fr); /*Selecciona las tres columnas de igual tamaño */
@@ -12,9 +12,13 @@
     gap: 5px; /* Espacio entre celdas */
 }
 
+/* Estilos generales para cada celda de la cuadricula */
+
 .Cuadricula{
     height: 100%;
 }
+
+/*Colores de fondo para cada celda*/
 
 #C1{
     background-color: lightblue;
