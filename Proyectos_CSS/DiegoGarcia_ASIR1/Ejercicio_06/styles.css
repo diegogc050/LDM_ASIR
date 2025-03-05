@@ -3,3 +3,17 @@
 /* 05 - 03 - 2025 */
 /* Ejercicio 6 */
 /* Version 01 */
+
+.Contenedor{
+    display:flex;
+    height: 100%;
+}
+
+.sidebar{
+    width: 20%;
+    background: lightgreen;
+    color: white;
+    padding: 20px;
+}
+
+
