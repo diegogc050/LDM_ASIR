@@ -14,4 +14,14 @@
         background-color:aquamarine;
 
 }
-/* Distribuye los elementos uniformamente con justify-content:space-around*/
+
+/* Colores */
+.Rojo {
+    background-color: red;
+}
+.Azul {
+    background-color: blue;
+}
+.Verde {
+    background-color: green;
+}
