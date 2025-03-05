@@ -68,3 +68,36 @@
 }
 
 /*Modo Oscuro*/
+
+.dark-mode {
+    background: black;
+    color: white;
+}
+
+.dark-mode .header {
+    background: #444;
+}
+
+.dark-mode .Tarjeta {
+
+    background: #333;
+    color:white;
+}
+
+.dark-mode .Tarjeta:hover {
+    background: #555;
+}
+
+/* Responsividad */
+@media (max-width: 600px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+    .sidebar{
+        width: 30%;
+    }
+
+    .content {
+        width: 70%;
+    }
+}
