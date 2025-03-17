@@ -8,26 +8,21 @@ Ejercicio: [EJEMPLO DE ENCABEZADO EN XML]
 <!--Fecha de cambio: 17/03/2025 (+)REORGANIZACIÓN DE CODIGO-->
 <MUNDO>
     <CIUDADES>
-        <CONTINENTE NOMBRE_CONTINENTE="Asia">
-                    <PAIS NOMBRE_PAIS="India">
+    <!--Fecha de cambio: 17/03/2025 (+)ELIMIZACIÓN DE CONTINENTE COMO ELEMENTO-->
+                    <PAIS NOMBRE_PAIS="India" NOMBRE_CONTINENTE"Asia">
                         <NOMBRE_CIUDAD>
                             <NOMBRE>Nueva Delhi</NOMBRE>
                         </NOMBRE_CIUDAD>
                     </PAIS>
-        </CONTINENTE>
-                <CONTINENTE NOMBRE_CONTINENTE="Europa">
-                    <PAIS NOMBRE_PAIS="Portugal">
+                    <PAIS NOMBRE_PAIS="Portugal" NOMBRE_CONTINENTE="Europa">
                             <NOMBRE_CIUDAD>
                                 <NOMBRE>Lisboa</NOMBRE>
                             </NOMBRE_CIUDAD>
                     </PAIS>
-        </CONTINENTE>
-                <CONTINENTE NOMBRE_CONTINENTE="África">
-                    <PAIS NOMBRE_PAIS="Egipto">
+                    <PAIS NOMBRE_PAIS="Egipto" NOMBRE_CONTINENTE="Africa">
                         <NOMBRE_CIUDAD>
                             <NOMBRE>El Cairo</NOMBRE>
                         </NOMBRE_CIUDAD>
                     </PAIS>
-        </CONTINENTE>
     </CIUDADES>
 </MUNDO>

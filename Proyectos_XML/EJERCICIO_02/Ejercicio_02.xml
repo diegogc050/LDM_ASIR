@@ -17,7 +17,7 @@ Ejercicio: [EJEMPLO DE ENCABEZADO EN XML]
 
 </HECHO>
 
-<HECHO DESCRIPCION="SE FUNDA GOOGLE">
+<HECHO DESCRIPCION="SE FUNDA GOOGLE.">
     <fecha>
         <dia>4</dia>
         <mes>9</mes>
