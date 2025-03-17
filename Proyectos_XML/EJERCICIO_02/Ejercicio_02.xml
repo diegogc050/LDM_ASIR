@@ -2,35 +2,35 @@
 <!--
 Nombre: [Diego García Campos]
 Curso: [ASIR1]
-Fecha: [17/03/2025]
+FECHA: [17/03/2025]
 Ejercicio: [EJEMPLO DE ENCABEZADO EN XML]
 -->
 <HECHOS_HISTORICOS>
 
 <HECHO DESCRIPCION="IBM DA A CONOCER EL PC.">
 
-    <fecha>
-        <dia>12</dia>
-        <mes>8</mes>
-        <año>1981</año>
-    </fecha>
+    <FECHA>
+        <DIA>12</DIA>
+        <MES>8</MES>
+        <AÑO>1981</AÑO>
+    </FECHA>
 
 </HECHO>
 
 <HECHO DESCRIPCION="SE FUNDA GOOGLE.">
-    <fecha>
-        <dia>4</dia>
-        <mes>9</mes>
-        <año>1998</año>
-    </fecha>
+    <FECHA>
+        <DIA>4</DIA>
+        <MES>9</MES>
+        <AÑO>1998</AÑO>
+    </FECHA>
 </HECHO>
 
 <HECHO DESCRIPCION="SE FUNDA FACEBOOK.">
-    <fecha>
-        <dia>4</dia>
-        <mes>2</mes>
-        <año>2004</año>
-    </fecha>
+    <FECHA>
+        <DIA>4</DIA>
+        <MES>2</MES>
+        <AÑO>2004</AÑO>
+    </FECHA>
 </HECHO>
 
 </HECHOS_HISTORICOS>

@@ -2,13 +2,13 @@
 <!--
 Nombre: [Diego García Campos]
 Curso: [ASIR1]
-Fecha: [14/03/2025]
+FECHA: [14/03/2025]
 Ejercicio: [EJEMPLO DE ENCABEZADO EN XML]
 -->
-<!--Fecha de cambio: 17/03/2025 (+)REORGANIZACIÓN DE CODIGO-->
+<!--FECHA de cambio: 17/03/2025 (+)REORGANIZACIÓN DE CODIGO-->
 <MUNDO>
     <CIUDADES>
-    <!--Fecha de cambio: 17/03/2025 (+)ELIMIZACIÓN DE CONTINENTE COMO ELEMENTO-->
+    <!--FECHA de cambio: 17/03/2025 (+)ELIMIZACIÓN DE CONTINENTE COMO ELEMENTO-->
                     <PAIS NOMBRE_PAIS="India" NOMBRE_CONTINENTE"Asia">
                         <NOMBRE_CIUDAD>
                             <NOMBRE>Nueva Delhi</NOMBRE>
