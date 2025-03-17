@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Nombre: [Diego García Campos]
+Curso: [ASIR1]
+FECHA: [17/03/2025]
+Ejercicio: [EJEMPLO DE ENCABEZADO EN XML]
+-->
+
+<EMPRESA>
+<EMPLEADO>
+    <NOMBRE_EMPLEADO>Ana</NOMBRE_EMPLEADO>
+    <APELLIDO_EMPLEADO>García</APELLIDO_EMPLEADO>
+    <EDAD>30</EDAD>
+    <DEPARTAMENTO>Ventas</DEPARTAMENTO>
+    <CARGO>Ejecutivo de ventas</CARGO>
+</EMPLEADO>
+<EMPLEADO>
+    <NOMBRE_EMPLEADO>Luis</NOMBRE_EMPLEADO>
+    <APELLIDO_EMPLEADO>Rodriguez</APELLIDO_EMPLEADO>
+    <EDAD>45</EDAD>
+    <DEPARTAMENTO>Finanzas</DEPARTAMENTO>
+    <CARGO>Analista financiero</CARGO>
+</EMPLEADO>
+<EMPLEADO>
+    <NOMBRE_EMPLEADO>María</NOMBRE_EMPLEADO>
+    <APELLIDO_EMPLEADO>López</APELLIDO_EMPLEADO>
+    <EDAD>28</EDAD>
+    <DEPARTAMENTO>Marketing</DEPARTAMENTO>
+    <CARGO>Especialista en redes sociales</CARGO>
+</EMPLEADO>
+</EMPRESA>
