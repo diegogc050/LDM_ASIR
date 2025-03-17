@@ -4,7 +4,7 @@ Curso: [ASIR1]
 Fecha: [14/03/2025]
 Ejercicio: [EJEMPLO DE ENCABEZADO EN XML]
 -->
-
+<?xml version="1.0" encoding="UTF-8"?>
 <MUNDO>
     <CIUDADES>
         <CONTINENTE NOMBRE_CONTINENTE=Asia>
@@ -16,11 +16,10 @@ Ejercicio: [EJEMPLO DE ENCABEZADO EN XML]
                     </PAIS>
         </CONTINENTE>
                 <CONTINENTE NOMBRE_CONTINENTE=Europa>
-                    <PAIS>
-                        <NOMBRE>India</NOMBRE>
-                        <NOMBRE_CIUDAD>
-                        <NOMBRE>Nueva Delhi</NOMBRE>
-                        <NOMBRE_CIUDAD>
+                    <PAIS NOMBRE_PAIS=India>
+                            <NOMBRE_CIUDAD>
+                                <NOMBRE>Nueva Delhi</NOMBRE>
+                            <NOMBRE_CIUDAD>
                     </PAIS>
         </CONTINENTE>
                 <CONTINENTE NOMBRE_CONTINENTE=África>
