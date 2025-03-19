@@ -6,9 +6,10 @@ FECHA: [17/03/2025]
 Ejercicio: [EJEMPLO DE ENCABEZADO EN XML]
 -->
 <HECHOS_HISTORICOS>
-
+    <!-- La etiqueta "HECHO" representa un evento histórico, que tiene un atributo DESCRIPCION con el nombre del hecho -->
 <HECHO DESCRIPCION="IBM DA A CONOCER EL PC.">
-
+       
+        <!-- Se define la fecha del hecho -->
     <FECHA>
         <DIA>12</DIA>
         <MES>8</MES>
