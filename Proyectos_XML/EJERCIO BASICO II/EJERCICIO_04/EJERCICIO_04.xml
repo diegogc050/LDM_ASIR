@@ -8,6 +8,10 @@ Ejercicio: [EJERCICIO BASCIO II XML]
 <MATRICULADOS>
     <MODULO CICLO="DAW">
         <ASIGNATURA NOMBRE="Lenguaje de marcas" H_SEMANALES="4" CARACTER="OBLIGATORIO">
+            <FECHAS>
+                <INICIO>15-09-2023</INICIO>
+                <FIN>22-06-2024</FIN>
+            </FECHAS>
             <ALUMNO1>
                 <NOMBRE>Ana</NOMBRE>
                 <APELLIDOS>Fernández Guitérrez</APELLIDOS>
@@ -15,7 +19,8 @@ Ejercicio: [EJERCICIO BASCIO II XML]
                 <TLF>666544566</TLF>
                 <CORREO>anafernandez@gmail.com</CORREO>
                 <DIRECCIÓN CALLE="Amatista" Nº="14" CODIGO_POSTAL="28905" POBLACIÓN="GETAFE"></DIRECCION>
-                <NOTA></NOTA>
+                <NOTA>No Especificada</NOTA>
+                <FALTAS>No especificadas</FALTAS>
             </ALUMNO1>
             <ALUMNO2>
                 <NOMBRE>Carlos</NOMBRE>
@@ -25,6 +30,7 @@ Ejercicio: [EJERCICIO BASCIO II XML]
                 <CORREO>carloslopez@gmail.com</CORREO>
                 <DIRECCIÓN CALLE="Ópalo" Nº="15" CODIGO_POSTAL="28905" POBLACIÓN="GETAFE"></DIRECCION>
                 <NOTA>APTO</NOTA>
+                <FALTAS>0</FALTAS>
             </ALUMNO2>
         </ASIGNATURA>
     </MODULO>
