@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Nombre: [Diego García Campos]
+Curso: [ASIR1]
+FECHA: [25/03/2025]
+Ejercicio: [EJERCICIO BASCIO II XML]
+-->
+<MATRICULADOS>
+    <MODULO CICLO="DAW">
+        <ASIGNATURA NOMBRE="Lenguaje de marcas" H_SEMANALES="4" CARACTER="OBLIGATORIO">
+            <ALUMNO1>
+                <NOMBRE>Ana</NOMBRE>
+                <APELLIDOS>Fernández Guitérrez</APELLIDOS>
+                <DNI>51623487V</DNI>
+                <TLF>666544566</TLF>
+                <CORREO>anafernandez@gmail.com</CORREO>
+                <DIRECCIÓN CALLE="Amatista" Nº="14" CODIGO_POSTAL="28905" POBLACIÓN="GETAFE"></DIRECCION>
+                <NOTA></NOTA>
+            </ALUMNO1>
+            <ALUMNO2>
+                <NOMBRE>Carlos</NOMBRE>
+                <APELLIDOS>López Sánchez</APELLIDOS>
+                <DNI>52369874B</DNI>
+                <TLF>666455477</TLF>
+                <CORREO>carloslopez@gmail.com</CORREO>
+                <DIRECCIÓN CALLE="Ópalo" Nº="15" CODIGO_POSTAL="28905" POBLACIÓN="GETAFE"></DIRECCION>
+                <NOTA>APTO</NOTA>
+            </ALUMNO2>
+        </ASIGNATURA>
+    </MODULO>
+</MATRICULADOS>
