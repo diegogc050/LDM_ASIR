@@ -1,5 +1,4 @@
-# EJERCICIO 02
-Se pide escribir un documento XML que almacene hechos historicos,descripcion de los hechos,FECHA,dia,mes y año
-
-*"Nota: la descripción de cada hecho hay que representarla mediante un atributo, el resto
-de información no."*
+# EJERCICIO 03
+Crea un documento XML que represente una lista de libros. Cada libro debe tener los
+siguientes atributos: título, autor y año de publicación. Incluye al menos tres libros en la
+lista.

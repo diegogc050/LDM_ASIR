@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Nombre: [Diego García Campos]
+Curso: [ASIR1]
+FECHA: [21/03/2025]
+Ejercicio: [EJERCICIO BASCIO II XML]
+-->
+
+
+<URL>
+
+<URL1>
+    <TITULO>W3Schools</TITULO>
+    <DESCRIPCION>Tutoriales de informática</DESCRIPCION>
+    <ENLACE>https://www.w3schools.com/</ENLACE>
+</URL1>
+<URL2>
+    <TITULO>Wikipedia</TITULO>
+    <DESCRIPCION>La enciclopedia libre.</DESCRIPCION>
+    <ENLACE>http://www.wikipedia.org/</ENLACE>
+</URL2>
+<URL3>
+    <TITULO>W3C</TITULO>
+    <DESCRIPCION>World Wide Web Consortium.</DESCRIPCION>
+    <ENLACE>http://www.w3.org/</ENLACE>
+</URL3>
+
+</URL>
