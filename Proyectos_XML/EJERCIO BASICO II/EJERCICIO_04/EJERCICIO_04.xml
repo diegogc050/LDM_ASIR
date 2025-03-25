@@ -5,8 +5,8 @@ Curso: [ASIR1]
 FECHA: [25/03/2025]
 Ejercicio: [EJERCICIO BASCIO II XML]
 -->
-<MATRICULADOS>
-    <MODULO CICLO="DAW">
+<MODULO>
+    <NOMBRE_CICLO>DAW</NOMBRE_CICLO>
     <!--FECHA de cambio: 25/03/2025 (-) ELIMINAR ATRIBUTOS  -->
         <ASIGNATURA>
             <NOMBRE>Lenguaje de marcas</NOMBRE>
@@ -16,26 +16,35 @@ Ejercicio: [EJERCICIO BASCIO II XML]
                 <INICIO>15-09-2023</INICIO>
                 <FIN>22-06-2024</FIN>
             </FECHAS>
-            <ALUMNO1>
-                <NOMBRE>Ana</NOMBRE>
-                <APELLIDOS>Fernández Guitérrez</APELLIDOS>
-                <DNI>51623487V</DNI>
-                <TLF>666544566</TLF>
-                <CORREO>anafernandez@gmail.com</CORREO>
-                <DIRECCIÓN CALLE="Amatista" Nº="14" CODIGO_POSTAL="28905" POBLACIÓN="GETAFE"></DIRECCION>
-                <NOTA>No Especificada</NOTA>
-                <FALTAS>No especificadas</FALTAS>
-            </ALUMNO1>
-            <ALUMNO2>
-                <NOMBRE>Carlos</NOMBRE>
-                <APELLIDOS>López Sánchez</APELLIDOS>
-                <DNI>52369874B</DNI>
-                <TLF>666455477</TLF>
-                <CORREO>carloslopez@gmail.com</CORREO>
-                <DIRECCIÓN CALLE="Ópalo" Nº="15" CODIGO_POSTAL="28905" POBLACIÓN="GETAFE"></DIRECCION>
-                <NOTA>APTO</NOTA>
-                <FALTAS>0</FALTAS>
-            </ALUMNO2>
+            <MATRICULADOS>
+                <ALUMNO1>
+                    <NOMBRE>Ana</NOMBRE>
+                    <APELLIDOS>Fernández Guitérrez</APELLIDOS>
+                    <DNI>51623487V</DNI>
+                    <TLF>666544566</TLF>
+                    <CORREO>anafernandez@gmail.com</CORREO>
+                    <DIRECCION>
+                        <CALLE>Amatista 14</CALLE>
+                        <CODIGO_POSTAL>28905</CODIGO_POSTAL>
+                        <POBLACION>Getafe</POBLACION>
+                    </DIRECCION>
+                    <NOTA>No Especificada</NOTA>
+                    <FALTAS>No especificadas</FALTAS>
+                </ALUMNO1>
+                <ALUMNO2>
+                    <NOMBRE>Carlos</NOMBRE>
+                    <APELLIDOS>López Sánchez</APELLIDOS>
+                    <DNI>52369874B</DNI>
+                    <TLF>666455477</TLF>
+                    <CORREO>carloslopez@gmail.com</CORREO>
+                    <DIRECCION>
+                        <CALLE>Ópalo 15</CALLE>
+                        <CODIGO_POSTAL>28905</CODIGO_POSTAL>
+                        <POBLACION>Getafe</POBLACION>
+                    </DIRECCION>
+                    <NOTA>APTO</NOTA>
+                    <FALTAS>0</FALTAS>
+                </ALUMNO2>
+            </MATRICULADOS>   
         </ASIGNATURA>
-    </MODULO>
-</MATRICULADOS>
+</MODULO>
