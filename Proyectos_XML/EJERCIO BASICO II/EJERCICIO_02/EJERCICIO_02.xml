@@ -2,27 +2,39 @@
 <!--
 Nombre: [Diego García Campos]
 Curso: [ASIR1]
-FECHA: [21/03/2025]
+FECHA: [25/03/2025]
 Ejercicio: [EJERCICIO BASCIO II XML]
 -->
 
-
-<URL>
-
-<URL1>
-    <TITULO>W3Schools</TITULO>
-    <DESCRIPCION>Tutoriales de informática</DESCRIPCION>
-    <ENLACE>https://www.w3schools.com/</ENLACE>
-</URL1>
-<URL2>
-    <TITULO>Wikipedia</TITULO>
-    <DESCRIPCION>La enciclopedia libre.</DESCRIPCION>
-    <ENLACE>http://www.wikipedia.org/</ENLACE>
-</URL2>
-<URL3>
-    <TITULO>W3C</TITULO>
-    <DESCRIPCION>World Wide Web Consortium.</DESCRIPCION>
-    <ENLACE>http://www.w3.org/</ENLACE>
-</URL3>
-
-</URL>
+<ASOCIACION>
+    <EQUIPO1>
+        <NOMBRE>Real Madrid</NOMBRE>
+        <CIUDAD>Madrid</CIUDAD>
+        <ENTRENADOR>Carlo Ancelotti</ENTRENADOR>
+        <JUGADOR1 POSICION="Delantero">
+            <NOMBRE_JUGADOR>Vinícius Jr.</NOMBRE_JUGADOR>
+            <POSICION>Delantero</POSICION>
+            <NACIONALIDAD>Brasil</NACIONALIDAD>
+        </JUGADOR1>
+        <JUGADOR2 POSICION="Mediocampista">
+            <NOMBRE_JUGADOR>Luka Modrić</NOMBRE_JUGADOR>
+            <POSICION>Mediocampista</POSICION>
+            <NACIONALIDAD>Croacia</NACIONALIDAD>
+        </JUGADOR2>
+    </EQUIPO1>
+    <EQUIPO2>
+        <NOMBRE>Manchester City</NOMBRE>
+        <CIUDAD>Mánchester</CIUDAD>
+        <ENTRENADOR>Pep Guardiola</ENTRENADOR>
+        <JUGADOR1 POSICION="Defensa">
+            <NOMBRE_JUGADOR>Rúben Dias</NOMBRE_JUGADOR>
+            <POSICION>Defensa</POSICION>
+            <NACIONALIDAD>Portugal</NACIONALIDAD>
+        </JUGADOR1>
+        <JUGADOR2 POSICION="Delantero">
+            <NOMBRE_JUGADOR>Erling Haaland</NOMBRE_JUGADOR>
+            <POSICION>Delantero</POSICION>
+            <NACIONALIDAD>Noruega</NACIONALIDAD>
+        </JUGADOR2>
+    </EQUIPO2>
+</ASOCIACION>
