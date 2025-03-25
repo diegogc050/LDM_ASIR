@@ -7,23 +7,21 @@ Ejercicio: [EJERCICIO BASCIO II XML]
 -->
 <RECETA NOMBRE="Sopa de Cebolla" COMENSALES="4">
     <INGREDIENTES>
-        <LISTA>
-        1 KG - Cebolla
-        2 L - Caldo de carne
-        100 GR - Mantequilla
-        1 CDA - Harina
-        1 HOJA - LAUREL
-        X - Pan tostado en rebanadas
-        X - Tomillo
-        X - PIMIENTA
-        </LISTA>
+        <INGREDIENTE CANTIDAD="1KG">Cebolla</INGREDIENTE>
+        <INGREDIENTE CANTIDAD="2L">Caldo de carne</INGREDIENTE>
+        <INGREDIENTE CANTIDAD="100GR">Mantequilla</INGREDIENTE>
+        <INGREDIENTE CANTIADD="1CDA">Harina</INGREDIENTE>
+        <INGREDIENTE CANTIDAD="1HOJA">Laurel</INGREDIENTE>
+        <INGREDIENTE CANTIDAD="X">Pan tostado en rebanadas</INGREDIENTE>
+        <INGREDIENTE CANTIDAD="X">Tomillo</INGREDIENTE>
+        <INGREDIENTE CANTIDAD="X">Pimienta</INGREDIENTE>
     </INGREDIENTES>
     <PROCESO>
-        1. Pelar y partir las cebollas en rodajas finas.
-        2. Rehogarlas con la mantequilla, sal y pimienta a fuego lento hasta que estén trasnparentes sin dorarse.
-        3. Añadir la harina sin dejar de remover
-        4. Ponerlo en una cazuela con el caldo, el tomillo y el laurel.
-        5. Dejar cocer a fuego lento durante unos 15 minutos.
-        6. Poner las rebanadas de pan encima, espolvorear el queso y gratinar al horno.
+        <ETAPA N="1"> Pelar y partir las cebollas en rodajas finas. </ETAPA>
+        <ETAPA N="2"> Rehogarlas con la mantequilla, sal y pimienta a fuego lento hasta que estén trasnparentes sin dorarse. </ETAPA>
+        <ETAPA N="3"> Añadir la harina sin dejar de remover. </ETAPA>
+        <ETAPA N="4"> Ponerlo en una cazuela con el caldo, el tomillo y el laurel. </ETAPA>
+        <ETAPA N="5"> Dejar cocer a fuego lento durante unos 15 minutos. </ETAPA>
+        <ETAPA N="6"> Poner las rebanadas de pan encima, espolvorear el queso y gratinar al horno. </ETAPA>
     </PROCESO>
 </RECETA>
