@@ -10,7 +10,7 @@ Ejercicio: [EJERCICIO BASCIO II XML]
     <EQUIPO1>
         <NOMBRE>Real Madrid</NOMBRE>
         <CIUDAD>Madrid</CIUDAD>
-        <ENTRENADOR>Carlo Ancelotti</ENTRENADOR>
+        <ENTRENADOR></ENTRENADOR>
         <JUGADOR1 POSICION="Delantero">
             <NOMBRE_JUGADOR>Vinícius Jr.</NOMBRE_JUGADOR>
             <POSICION>Delantero</POSICION>
@@ -25,7 +25,7 @@ Ejercicio: [EJERCICIO BASCIO II XML]
     <EQUIPO2>
         <NOMBRE>Manchester City</NOMBRE>
         <CIUDAD>Mánchester</CIUDAD>
-        <ENTRENADOR>Pep Guardiola</ENTRENADOR>
+        <ENTRENADOR></ENTRENADOR>
         <JUGADOR1 POSICION="Defensa">
             <NOMBRE_JUGADOR>Rúben Dias</NOMBRE_JUGADOR>
             <POSICION>Defensa</POSICION>
