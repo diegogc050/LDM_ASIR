@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Nombre: [Diego García Campos]
+Curso: [ASIR1]
+FECHA: [25/03/2025]
+Ejercicio: [EJERCICIO BASCIO II XML]
+-->
+<RECETA NOMBRE="Sopa de Cebolla" COMENSALES="4">
+    <INGREDIENTES>
+        <LISTA>
+        1 KG - Cebolla
+        2 L - Caldo de carne
+        100 GR - Mantequilla
+        1 CDA - Harina
+        1 HOJA - LAUREL
+        X - Pan tostado en rebanadas
+        X - Tomillo
+        X - PIMIENTA
+        </LISTA>
+    </INGREDIENTES>
+    <PROCESO>
+        1. Pelar y partir las cebollas en rodajas finas.
+        2. Rehogarlas con la mantequilla, sal y pimienta a fuego lento hasta que estén trasnparentes sin dorarse.
+        3. Añadir la harina sin dejar de remover
+        4. Ponerlo en una cazuela con el caldo, el tomillo y el laurel.
+        5. Dejar cocer a fuego lento durante unos 15 minutos.
+        6. Poner las rebanadas de pan encima, espolvorear el queso y gratinar al horno.
+    </PROCESO>
+</RECETA>
