@@ -7,7 +7,11 @@ Ejercicio: [EJERCICIO BASCIO II XML]
 -->
 <MATRICULADOS>
     <MODULO CICLO="DAW">
-        <ASIGNATURA NOMBRE="Lenguaje de marcas" H_SEMANALES="4" CARACTER="OBLIGATORIO">
+    <!--FECHA de cambio: 25/03/2025 (-) ELIMINAR ATRIBUTOS  -->
+        <ASIGNATURA>
+            <NOMBRE>Lenguaje de marcas</NOMBRE>
+            <H_SEMANALES>4</H_SEMANALES>
+            <CARACTER>OBLIGATORIO</CARACTER>
             <FECHAS>
                 <INICIO>15-09-2023</INICIO>
                 <FIN>22-06-2024</FIN>
