@@ -5,7 +5,7 @@ Curso: [ASIR1]
 FECHA: [25/03/2025]
 Ejercicio: [EJERCICIO BASCIO II XML]
 -->
-<MODULO>
+<CICLOS>
     <NOMBRE_CICLO>DAW</NOMBRE_CICLO>
     <!--FECHA de cambio: 25/03/2025 (-) ELIMINAR ATRIBUTOS  -->
         <ASIGNATURA>
@@ -47,4 +47,4 @@ Ejercicio: [EJERCICIO BASCIO II XML]
                 </ALUMNO2>
             </MATRICULADOS>   
         </ASIGNATURA>
-</MODULO>
+</CICLOS>
