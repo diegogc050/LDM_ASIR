@@ -7,49 +7,53 @@ Ejercicio: [EJERCICIO BASICO XML III]
 -->
 
 <Catalogo 
-xmlns:os="http://Herramienta.com/os"
-xmlns:office="http://Herramienta.com/office">
+xmlns:os="http://Herramienta.com/os" 
+xmlns:office="http://Herramienta.com/office"> <!--Sistema Operativo:os ||| Oficina:office-->
 
-    <SistemaOperativo>
-        <Nombre></Nombre>
-        <Version></Version>
-        <Desarrollador></Desarrollador>
-        <URL></URL>
-    </SistemaOperativo>
 
-    <SistemaOperativo>
-        <Nombre></Nombre>
-        <Version></Version>
-        <Desarrollador></Desarrollador>
-        <URL></URL>
-    </SistemaOperativo>
-    
-    <SistemaOperativo>
-        <Nombre></Nombre>
-        <Version></Version>
-        <Desarrollador></Desarrollador>
-        <URL></URL>
-    </SistemaOperativo>
+<!--Sistemas Operativos-->
 
-    <Office>
-        <Nombre></Nombre>
-        <Version></Version>
-        <Desarrollador></Desarrollador>
-        <URL></URL>
-    </Office>
+    <os:Software>
+        <os:Nombre>Kali Linux</os:Nombre>
+        <os:Version>2024.1</os:Version>
+        <os:Desarrollador>Offensive Security</os:Desarrollador>
+        <os:URL>https://www.kali.org</os:URL>
+    </os:Software>
+
+    <os:Software>
+        <os:Nombre>Windows 11</os:Nombre>
+        <os:Version>21H2</os:Version>
+        <os:Desarrollador>Microsoft</os:Desarrollador>
+        <os:URL>https://www.microsoft.com/windows</os:URL>
+    </os:SistemaOperativo>
     
-    <Office>
-        <Nombre></Nombre>
-        <Version></Version>
-        <Desarrollador></Desarrollador>
-        <URL></URL>
-    </Office>
+    <os:Software>
+        <os:Nombre>Arch Linux</os:Nombre>
+        <os:Version>Rolling Release</os:Version>
+        <os:Desarrollador>Arch Linux Developers</os:Desarrollador>
+        <os:URL>https://archlinux.org/</os:URL>
+    </os:SistemaOperativo>
+
+<!-- OFICINA -->
+    <office:Software>
+        <office:Nombre>OnlyOffice</office:Nombre>
+        <office:Version>7.4</office:Version>
+        <office:Desarrollador>Ascensio System SIA</office:Desarrollador>
+        <office:URL>https://www.onlyoffice.com/</office:URL>
+    </office:Software>
     
-    <Office>
-        <Nombre></Nombre>
-        <Version></Version>
-        <Desarrollador></Desarrollador>
-        <URL></URL>
-    </Office>
+    <office:Software>
+        <office:Nombre>WPS Office</office:Nombre>
+        <office:Version>11.2</office:Version>
+        <office:Desarrollador>Kingsoft</office:Desarrollador>
+        <office:URL>https://www.wps.com/</office:URL>
+    </office:Software>
+    
+    <office:Software>
+        <office:Nombre>Microsoft Excel</office:Nombre>
+        <office:Version>2021</office:Version>
+        <office:Desarrollador>Microsoft</office:Desarrollador>
+        <office:URL>https://www.microsoft.com/microsoft-365/</office:URL>
+    </office:Software>
 
 </Catalogo>
