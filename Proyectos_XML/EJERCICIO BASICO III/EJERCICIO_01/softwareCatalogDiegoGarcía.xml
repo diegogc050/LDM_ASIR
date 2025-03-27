@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Nombre: [Diego García Campos]
+Curso: [ASIR1]
+FECHA: [27/03/2025]
+Ejercicio: [EJERCICIO BASICO XML III]
+-->
+
+<Catalogo 
+xmlns:os="http://Herramienta.com/os"
+xmlns:office="http://Herramienta.com/office">
+
+    <SistemaOperativo>
+        <Nombre></Nombre>
+        <Version></Version>
+        <Desarrollador></Desarrollador>
+        <URL></URL>
+    </SistemaOperativo>
+
+    <SistemaOperativo>
+        <Nombre></Nombre>
+        <Version></Version>
+        <Desarrollador></Desarrollador>
+        <URL></URL>
+    </SistemaOperativo>
+    
+    <SistemaOperativo>
+        <Nombre></Nombre>
+        <Version></Version>
+        <Desarrollador></Desarrollador>
+        <URL></URL>
+    </SistemaOperativo>
+
+    <Office>
+        <Nombre></Nombre>
+        <Version></Version>
+        <Desarrollador></Desarrollador>
+        <URL></URL>
+    </Office>
+    
+    <Office>
+        <Nombre></Nombre>
+        <Version></Version>
+        <Desarrollador></Desarrollador>
+        <URL></URL>
+    </Office>
+    
+    <Office>
+        <Nombre></Nombre>
+        <Version></Version>
+        <Desarrollador></Desarrollador>
+        <URL></URL>
+    </Office>
+
+</Catalogo>
