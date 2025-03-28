@@ -1,4 +1,4 @@
-# EJERCICIO 01ç
+# EJERCICIO 01
 
 Diseña un documento XML que represente los libros de una biblioteca. Los libros deben
 contener los siguientes datos:

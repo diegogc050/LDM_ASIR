@@ -1,49 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE biblioteca [
-    <!ELEMENT biblioteca (libro+)>
-    <!ELEMENT libro (titulo, editorial, autor, num_paginas)>
-    <!ELEMENT titulo (#PCDATA)>
-    <!ELEMENT editorial (#PCDATA)>
-    <!ELEMENT autor (nombre, apellidos)>
-    <!ELEMENT nombre (#PCDATA)>
-    <!ELEMENT apellidos (#PCDATA)>
-    <!ELEMENT num_paginas (#PCDATA)>
-]>
+<!DOCTYPE liga_baloncesto SYSTEM "baloncesto.dtd">
+
+
 <!--
 Nombre: [Diego García Campos]
 Curso: [ASIR1]
-FECHA: [21/03/2025]
+FECHA: [28/03/2025]
 Ejercicio: [EJERCICIO BASCIO IV XML]
 -->
 
-<biblioteca>
-    <libro>
-        <titulo>El misterio del códice perdido</titulo>
-        <editorial>Misterium Books</editorial>
-        <autor>
-            <nombre>Lucía</nombre>
-            <apellidos>Fernández</apellidos>
-        </autor>
-        <num_paginas>420</num_paginas>
-    </libro>
-    
-    <libro>
-        <titulo>Más allá de la galaxia</titulo>
-        <editorial>Cosmos Editorial</editorial>
-        <autor>
-            <nombre>Rodrigo</nombre>
-            <apellidos>Montenegro</apellidos>
-        </autor>
-        <num_paginas>512</num_paginas>
-    </libro>
-    
-    <libro>
-        <titulo>El arte de la serenidad</titulo>
-        <editorial>Sabiduría Universal</editorial>
-        <autor>
-            <nombre>Isabel</nombre>
-            <apellidos>Ramos</apellidos>
-        </autor>
-        <num_paginas>278</num_paginas>
-    </libro>
-</biblioteca>
+
+<liga_baloncesto>
+    <jugador>
+        <nombre>Lucas</nombre>
+        <apellidos>Vega</apellidos>
+        <equipo>
+            <ciudad>Miami</ciudad>
+            <presidente>
+                <nombrePresidente>Roberto</nombrePresidente>
+                <apellidosPresidente>Méndez</apellidosPresidente>
+            </presidente>
+        </equipo>
+        <edad>27</edad>
+    </jugador>
+
+    <jugador>
+        <nombre>Mateo</nombre>
+        <apellidos>García</apellidos>
+        <equipo>
+            <ciudad>Los Angeles</ciudad>
+            <presidente>
+                <nombrePresidente>Antonio</nombrePresidente>
+                <apellidosPresidente>Ramírez</apellidosPresidente>
+            </presidente>
+        </equipo>
+        <edad>24</edad>
+    </jugador>
+
+    <jugador>
+        <nombre>Diego</nombre>
+        <apellidos>Fernández</apellidos>
+        <equipo>
+            <ciudad>Chicago</ciudad>
+            <presidente>
+                <nombrePresidente>Manuel</nombrePresidente>
+                <apellidosPresidente>Suárez</apellidosPresidente>
+            </presidente>
+        </equipo>
+        <edad>30</edad>
+    </jugador>
+</liga_baloncesto>

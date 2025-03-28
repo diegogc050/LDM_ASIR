@@ -1,0 +1,24 @@
+
+<!--
+Nombre: [Diego García Campos]
+Curso: [ASIR1]
+FECHA: [28/03/2025]
+Ejercicio: [EJERCICIO BASCIO IV XML]
+-->
+
+<agenda>
+<nombre>Antonio</nombre>
+<apellido>Sánchez</apellido>
+<apellido>Pérez</apellido>
+<telefono>666555444</telefono>
+<fecha_nacimiento>
+<anio>2000</anio>
+<mes>01</mes>
+<dia>20</dia>
+</fecha_nacimiento>
+<lugar_nacimiento>
+<pais>España</pais>
+<ciudad>Madrid</ciudad>
+<localidad>Getafe</localidad>
+</lugar_nacimiento>
+</agenda>
