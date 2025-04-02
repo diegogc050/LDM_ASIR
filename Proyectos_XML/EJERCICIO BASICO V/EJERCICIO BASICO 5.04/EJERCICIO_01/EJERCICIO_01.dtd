@@ -1,0 +1,16 @@
+<?xml version="1.0" encondig="UTF-8"?>
+<!--
+Nombre: [Diego García Campos]
+Curso: [ASIR1]
+FECHA: [02/03/2025]
+Ejercicio: [EJERCICIO BASCIO V XML]
+-->
+
+<!DOCTYPE numeros [
+    <!ELEMENT numeros (numero*)> <!-- (+) Numeros contiene numero (*0-n veces) -->
+    <!ELEMENT numero (#PCDATA)> <!-- Definimos numero-->
+]>
+
+<numeros>
+    <numero>25</numero>
+</numeros>
