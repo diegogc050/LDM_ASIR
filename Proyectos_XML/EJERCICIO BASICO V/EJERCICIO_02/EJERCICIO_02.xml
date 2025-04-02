@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Nombre: [Diego García Campos]
+Curso: [ASIR1]
+FECHA: [02/03/2025]
+Ejercicio: [EJERCICIO BASCIO V XML]
+-->
+
+
+<!DOCTYPE EquiposNBA [
+    <!ELEMENT EquiposNBA (equipo, nombre)+>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT equipo (titulos, posicion, quinteto)>
+        <!ATTLIST equipo conferencia CDATA #REQUIRED>
+    <!ELEMENT titulos (#PCDATA)>
+    <!ELEMENT posicion (#PCDATA)>
+    <!ELEMENT quinteto (#PCDATA)>
+]>
+   
+<EquiposNBA>
+    <nombre>Golden State Warriors</nombre>
+    <nombre>Miami Heat</nombre>
+    <equipo conferencia="Oeste">
+        <titlos>10</titulos>
+        <posicion>3</posicion>
+        <quinteto>Stephen Curry, Klay Thompson, Draymond Green, Andrew Wiggins, Kevon Looney</quinteto>
+    </equipo>
+    <equipo conferencia="Este">
+        <titlos>3</titulos>
+        <posicion>6</posicion>
+        <quinteto>Jimmy Butler, Bam Adebayo, Tyler Herro, Kyle Lowry, Duncan Robinson</quinteto>
+    </equipo>
+
+</EquiposNBA>
