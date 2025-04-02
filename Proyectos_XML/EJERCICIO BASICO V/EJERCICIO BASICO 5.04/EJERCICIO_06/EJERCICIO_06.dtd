@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+Nombre: [Diego García Campos]
+Curso: [ASIR1]
+FECHA: [02/03/2025]
+Ejercicio: [EJERCICIO BASCIO V XML]
+-->
+
+<!DOCTYPE escritores [
+
+    <!ELEMENT escritores (escritor*)>
+    <!ELEMENT escritor (nombre,nacimiento)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT nacimiento (#PCDATA)>
+]>
+
+<escritores>
+    <escritor>
+        <nombre>Mario Vargas Llosa</nombre>
+        <nacimiento>28 de marzo de 1936</nacimiento>
+    </escritor>
+    <escritor>
+        <nombre>Milan Kundera</nombre>
+        <nacimiento>1 de abril de 1929</nacimiento> <!--Se intercambia el orden de los elementos-->
+    </escritor>
+</escritores>
