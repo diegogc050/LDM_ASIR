@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Nombre: [Diego García Campos]
+Curso: [ASIR1]
+FECHA: [02/03/2025]
+Ejercicio: [EJERCICIO BASCIO V XML]
+-->
+<!DOCTYPE Cuento2 SYSTEM "Cuento.dtd">
+<cuento cod="B02" titulo="La Sombra en el Espejo" genero="terror">
+    <personajes>
+        <personaje id="P3" tipo="principal">
+            <nombre>Daniel</nombre>
+            <genero>M</genero>
+            <descripcion>Un joven curioso que descubre un espejo embrujado.</descripcion>
+            <descripcion_fisica>Cabello negro y ojos oscuros, siempre vestido de gris.</descripcion_fisica>
+        </personaje>
+        <personaje id="P4" tipo="antagonista">
+            <nombre>Sombra del Espejo</nombre>
+            <genero>N</genero>
+            <descripcion>Una entidad maligna atrapada en un reflejo.</descripcion>
+            <imagen>sombra.png</imagen>
+        </personaje>
+    </personajes>
+    <trama>Daniel encuentra un espejo antiguo en su casa, pero su reflejo empieza a moverse por sí solo.</trama>
+    <etiqueta nombre="suspenso"/>
+    <precio>10.50</precio>
+</cuento>
