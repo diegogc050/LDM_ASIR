@@ -1,0 +1,52 @@
+
+<!--
+Nombre: [Diego García Campos]
+Curso: [ASIR1]
+FECHA: [02/03/2025]
+Ejercicio: [EJERCICIO BASCIO V XML]
+-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE factura [
+    <!ELEMENT factura (datos-emisor, datos-cliente, detalle-factura)>
+        <!ATTLIST factura numero CDATA #REQUIRED fecha CDATA #REQUIRED>
+    <!ELEMENT datos-emisor (nombre, cif, telefono)>
+    <!ELEMENT datos-cliente (nombre, cif, telefono)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT cif (#PCDATA)>
+    <!ELEMENT telefono (#PCDATA)>
+    <!ELEMENT detalle-factura (linea+)>
+        <!ATTLIST detalle-factura importe CDATA #REQUIRED>
+    <!ELEMENT linea (descripcion, cantidad, pvp, oferta?)>
+        <!ATTLIST linea codigo-articulo ID #REQUIRED tipo (Libro | DVD | Varios) #REQUIRED>
+    <!ELEMENT descripcion (#PCDATA)>
+    <!ELEMENT cantidad (#PCDATA)>
+    <!ELEMENT pvp (#PCDATA)>
+    <!ELEMENT oferta EMPTY>
+]>
+
+<factura numero="F2024001" fecha="2024/04/02">
+    <datos-emisor>
+        <nombre>La casa de la Cadena</nombre>
+        <cif>C12345678</cif>
+        <telefono>691345678</telefono>
+    </datos-emisor>
+    <datos-cliente>
+        <nombre>Biblioteca Casar</nombre>
+        <cif>H87654321</cif>
+        <telefono>612654321</telefono>
+    </datos-cliente>
+    <detalle-factura importe="69,44">
+        <linea codigo-articulo="D2A1" tipo="Libro">
+            <descripcion>Vida del Hacker</descripcion>
+            <cantidad>2</cantidad>
+            <pvp>46,25</pvp>
+            <oferta/>
+        </linea>
+        <linea codigo-articulo="C3A1" tipo="Libro">
+            <descripcion>Joker</descripcion>
+            <cantidad>1</cantidad>
+            <pvp>23,19</pvp>
+        </linea>
+    </detalle-factura>
+</factura>
