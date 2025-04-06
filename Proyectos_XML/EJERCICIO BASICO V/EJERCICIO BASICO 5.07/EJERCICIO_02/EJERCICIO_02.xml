@@ -1,0 +1,18 @@
+<!--
+Nombre: [Diego García Campos]
+Curso: [ASIR1]
+FECHA: [06/03/2025]
+Ejercicio: [EJERCICIO BASCIO V XML]
+-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pelicula [
+<!ELEMENT pelicula EMPTY>
+<!ATTLIST pelicula 
+    titulo CDATA #IMPLIED>
+<!ATTLIST pelicula  <!--Se añade el atributo restante-->
+    genero CDATA #IMPLIED>
+]>
+
+<pelicula titulo="La diligencia"
+genero="oeste" />
