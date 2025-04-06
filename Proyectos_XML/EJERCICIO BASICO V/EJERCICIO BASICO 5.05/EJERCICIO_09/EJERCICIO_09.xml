@@ -1,27 +1,32 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
 <!--
 Nombre: [Diego García Campos]
 Curso: [ASIR1]
-FECHA: [02/03/2025]
+FECHA: [06/03/2025]
 Ejercicio: [EJERCICIO BASCIO V XML]
 -->
 
-<!DOCTYPE sistemaSolar [
-
-    <!ELEMENT sistemaSolar (cuerpo*)>
-    <!ELEMENT cuerpo (planeta?,satelite?asteroide?)> <!--Se cambia el formato para permitir combinaciones-->
-    <!ELEMENT planeta (#PCDATA)>
-    <!ELEMENT satelite (#PCDATA)>
-    <!ELEMENT asteroide (#PCDATA)>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mensajes [
+<!ELEMENT mensajes (mensaje*)>
+<!ELEMENT mensaje (de,para,hora,texto) > <!--Declaramos el elemento mensaje-->
+<!ELEMENT de (#PCDATA)>
+<!ELEMENT para (#PCDATA)>
+<!ELEMENT hora (#PCDATA)>
+<!ELEMENT texto (#PCDATA | strong)*> <!--Se añade la posiblidad de que existan ambos elementos-->
+<!ELEMENT strong (#PCDATA)>
 ]>
 
-<sistemaSolar>
-    <cuerpo>
-        <planeta>Tierra</planeta>
-        <satelite>Luna</satelite>
-    </cuerpo>
-    <cuerpo> <!--Se añade elemento para respetar las reglas del DTD-->
-        <asteroide>Ceres</asteroide>
-    </cuerpo>
-</sistemaSolar>
+<mensajes>
+    <mensaje>
+        <de>Pepe (pepe@example.com)</de>
+        <para>Juan (juan@example.com)</para>
+        <hora>28/02/2011 17:48:23,61</hora>
+        <texto>¿Hola, Juan, qué haces ?</texto>
+    </mensaje>
+    <mensaje>
+        <de>Juan (juan@example.com)</de>
+        <para>Pepe (pepe@example.com)</para>
+        <hora>28/02/2011 17:54:20,87</hora>
+        <texto>Aquí, aprendiendo <strong>XML</strong></texto>
+    </mensaje>
+</mensajes>
