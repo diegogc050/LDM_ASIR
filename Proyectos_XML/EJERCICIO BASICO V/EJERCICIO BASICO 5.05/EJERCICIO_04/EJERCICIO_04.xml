@@ -1,18 +1,25 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
 <!--
 Nombre: [Diego García Campos]
 Curso: [ASIR1]
-FECHA: [02/03/2025]
+FECHA: [06/03/2025]
 Ejercicio: [EJERCICIO BASCIO V XML]
 -->
 
-<!DOCTYPE flores [
-
-    <!ELEMENT flores (flor+)>
-    <!ELEMENT flor (#PCDATA)>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE vuelos [
+<!ELEMENT vuelos (vuelo*)>
+<!ELEMENT vuelo (origen, destino)>
+<!ELEMENT origen (#PCDATA)>
+<!ELEMENT destino (#PCDATA)>
 ]>
 
-<flores>
-    <flor>Amapola</flor> <!--Flor debe aparecer 1-n veces-->
-</flores>
+<vuelos>
+    <vuelo>
+        <origen>Valencia (VLC)</origen>
+        <destino>Londres Heathrow (LHR)</destino>
+    </vuelo>
+    <vuelo>
+        <origen>Paris Charles de Gaulle (CDG)</origen>
+        <destino>Berlín Schönefeld (SFX)</destino> <!--Se modifica el orden-->
+    </vuelo>
+</vuelos>
