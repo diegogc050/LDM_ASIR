@@ -1,5 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
 <!--
 Nombre: [Diego García Campos]
 Curso: [ASIR1]
@@ -7,24 +5,28 @@ FECHA: [02/03/2025]
 Ejercicio: [EJERCICIO BASCIO V XML]
 -->
 
-<!DOCTYPE musicos [
+<?xml version="1.0" encoding="UTF-8"?>
 
-    <!ELEMENT musicos (musico*)>
-    <!ELEMENT musico (nombre?,apodo?,fechaNacimiento)> <!--Se define correctamente nombre y apodo-->
-    <!ELEMENT nombre (#PCDATA)>
-    <!ELEMENT apodo (#PCDATA)>
-    <!ELEMENT fechaNacimiento (#PCDATA)>
+<!DOCTYPE colores [
+<!ELEMENT colores (color*)>
+<!ELEMENT color (nombreSvg,codigo)> <!--Se agrega el elemento color y sus respectivos hijoos-->
+<!ELEMENT nombreSvg (#PCDATA)>
+<!ELEMENT codigo (rgb | cmyk)> <!--Se agrega la opcion de que puedan ser cualquiera de las dos opciones-->
+<!ELEMENT rgb (#PCDATA)>
+<!ELEMENT cmyk (#PCDATA)>
 ]>
 
-<musicos>
-    <musico>
-        <nombre>Antonio Vivaldi</nombre>
-        <apodo>El cura pelirrojillo</apodo>
-        <fechaNacimiento>4 de marzo de 1678</fechaNacimiento>
-    </musico>
-    <musico>
-        <nombre>Johann Sebastian Bach</nombre>
-        <apodo>El viejo peluca</apodo>
-        <fechaNacimiento>21 de marzo de 1685</fechaNacimiento>
-    </musico>
-</musicos>
+<colores>
+    <color>
+    <nombreSvg>Purple</nombreSvg>
+    <codigo>
+        <rgb>#800080</rgb>
+    </codigo>
+    </color>
+    <color>
+    <nombreSvg>Purple</nombreSvg>
+    <codigo>
+        <cmyk>#00FF007F</cmyk>
+    </codigo>
+    </color>
+</colores>
