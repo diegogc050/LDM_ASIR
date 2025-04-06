@@ -7,9 +7,9 @@ Ejercicio: [EJERCICIO BASCIO V XML]
 
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE efemerides [
-<!ELEMENT efemerides (efemeride)>
+<!ELEMENT efemerides (efemeride+)> <!--Se agrega cardinalidad-->
 <!ELEMENT efemeride (fecha, hecho)>
-<!ELEMENT fecha (#PCDATA)>
+<!ELEMENT fecha (#PCDATA)> <!--Se agregan elementos restantes-->
 <!ELEMENT hecho (#PCDATA)>
 ]>
 
