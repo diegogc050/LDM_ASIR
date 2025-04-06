@@ -1,5 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
 <!--
 Nombre: [Diego García Campos]
 Curso: [ASIR1]
@@ -7,24 +5,29 @@ FECHA: [02/03/2025]
 Ejercicio: [EJERCICIO BASCIO V XML]
 -->
 
-<!DOCTYPE agenda [
+<?xml version="1.0" encoding="UTF-8"?>
 
-    <!ELEMENT agenda (contacto*)>
-    <!ELEMENT contacto (nombre, telefonoFijo*,telefonoMovil*)> <!--Si el móvil es opcional se cambia la cardinalidad-->
-    <!ELEMENT nombre (#PCDATA)>
-    <!ELEMENT telefonoFijo (#PCDATA)>
-    <!ELEMENT telefonoMovil (#PCDATA)>
+<!DOCTYPE contabilidad [
+<!ELEMENT contabilidad (apunte*)> <!--Se detalla el elemento raiz-->
+<!ELEMENT apunte (ingreso | gasto,fecha,cantidad,concepto)> <!--Se detallan todos los hijos-->
+<!ELEMENT ingreso EMPTY>
+<!ELEMENT gasto EMPTY> <!--Se detallan los elementos vacios-->
+<!ELEMENT fecha (#PCDATA)>
+<!ELEMENT cantidad (#PCDATA)>
+<!ELEMENT concepto (#PCDATA)>
 ]>
 
-<agenda>
-    <contacto>
-        <nombre>Ayuntamiento</nombre>
-        <telefonoFijo>010</telefonoFijo>
-    </contacto>
-    <contacto>
-        <nombre>Emergencias</nombre>
-        <telefonoFijo>112 (Unión Europea)</telefonoFijo> <!--Se cambia el orden segun el DTD-->
-        <telefonoFijo>911 (Estados Unidos)</telefonoFijo>
-        <telefonoMovil>Desconocido</telefonoMovil>
-    </contacto>
-</agenda>
+<contabilidad>
+    <apunte>
+        <ingreso />
+        <fecha>24 de febrero de 2011</fecha>
+        <cantidad>1800,00 €</cantidad>
+        <concepto>Salario</concepto>
+    </apunte>
+    <apunte>
+        <gasto />
+        <fecha>28 de febrero de 2011</fecha>
+        <cantidad>74,25 €</cantidad>
+        <concepto>Recibo luz</concepto>
+    </apunte>
+</contabilidad>
