@@ -1,0 +1,25 @@
+<!--
+Nombre: [Diego García Campos]
+Curso: [ASIR1]
+FECHA: [06/03/2025]
+Ejercicio: [EJERCICIO BASCIO V XML]
+-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE favoritos [
+    <!ELEMENT favoritos (marcador+)> <!--Se cambia la cardinalidad-->
+    <!ELEMENT marcador (nombre, uri)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT uri (#PCDATA)>
+    ]>
+
+<favoritos> <!--Cambiamos el elemento raiz-->
+    <marcador>
+        <nombre>W3C</nombre>
+        <uri>http://www.w3.org/</uri>
+    </marcador>
+    <marcador>
+        <nombre>Web Hypertext Application Technology Working Group (WHATWG)</nombre>
+        <uri>http://www.whatwg.org/</uri>
+    </marcador>
+</favoritos>

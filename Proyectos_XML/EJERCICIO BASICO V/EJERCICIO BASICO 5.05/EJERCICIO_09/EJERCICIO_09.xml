@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+Nombre: [Diego García Campos]
+Curso: [ASIR1]
+FECHA: [02/03/2025]
+Ejercicio: [EJERCICIO BASCIO V XML]
+-->
+
+<!DOCTYPE sistemaSolar [
+
+    <!ELEMENT sistemaSolar (cuerpo*)>
+    <!ELEMENT cuerpo (planeta?,satelite?asteroide?)> <!--Se cambia el formato para permitir combinaciones-->
+    <!ELEMENT planeta (#PCDATA)>
+    <!ELEMENT satelite (#PCDATA)>
+    <!ELEMENT asteroide (#PCDATA)>
+]>
+
+<sistemaSolar>
+    <cuerpo>
+        <planeta>Tierra</planeta>
+        <satelite>Luna</satelite>
+    </cuerpo>
+    <cuerpo> <!--Se añade elemento para respetar las reglas del DTD-->
+        <asteroide>Ceres</asteroide>
+    </cuerpo>
+</sistemaSolar>

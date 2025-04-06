@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+Nombre: [Diego García Campos]
+Curso: [ASIR1]
+FECHA: [02/03/2025]
+Ejercicio: [EJERCICIO BASCIO V XML]
+-->
+
+<!DOCTYPE musicos [
+
+    <!ELEMENT musicos (musico*)>
+    <!ELEMENT musico (nombre?,apodo?,fechaNacimiento)> <!--Se define correctamente nombre y apodo-->
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT apodo (#PCDATA)>
+    <!ELEMENT fechaNacimiento (#PCDATA)>
+]>
+
+<musicos>
+    <musico>
+        <nombre>Antonio Vivaldi</nombre>
+        <apodo>El cura pelirrojillo</apodo>
+        <fechaNacimiento>4 de marzo de 1678</fechaNacimiento>
+    </musico>
+    <musico>
+        <nombre>Johann Sebastian Bach</nombre>
+        <apodo>El viejo peluca</apodo>
+        <fechaNacimiento>21 de marzo de 1685</fechaNacimiento>
+    </musico>
+</musicos>
