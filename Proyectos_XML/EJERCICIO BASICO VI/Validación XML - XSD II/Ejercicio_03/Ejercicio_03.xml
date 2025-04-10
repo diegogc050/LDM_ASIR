@@ -6,16 +6,38 @@ Ejercicio: [EJERCICIO BASCIO VI XML]
 -->
 
 
-<?xml version="1.0" encoding="UTF-8"?>
-<heladeria xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-xsi:noNamespaceSchemaLocation="heladeria.xsd">
+1. "Capítulo 0", "Capítulo 1", "Capítulo 2"... "Capítulo 9". (Solo se permite un dígito).
 
- <helado fabricación="2015-01-30">
- <chocolate>250</chocolate>
- <turron>300</turron>
- </helado>
- <helado fabricación="2015-01-30">
- <fresa>500</fresa>
- <vainilla>200</vainilla>
- </helado>
-</heladeria>
+Capitulo \d
+
+2. "Capítulo 0", "Capítulo 1", "Capítulo 2"... "Capítulo 99". (Uno o dos dígitos).
+
+Capitulo \d{1,2}
+
+3. "Capítulo 1", "Capítulo 2", "Capítulo 3"... "Capítulo 99". (No se permite "Capítulo 0").
+
+Capitulo [1-9]\d
+
+4. "Capítulo 0", "Capítulo 1", "Capítulo 2"... "Capítulo 99"... "Capítulo 100"... (Uno o más dígitos).
+
+Capitulo \d+
+
+5. Cualquier valor de dos caracteres, cuyo primer carácter sea distinto de un dígito (0-9) y
+cuyo segundo carácter sea "Z": "aZ"... "zZ", "AZ"... "ZZ", "?Z", "=Z", "*Z"...
+
+[^0-9]Z
+
+6. "ABBC", "ABBBC", "ABBBBC", "ABBBBBC".
+
+AB{2,5}C
+
+7. El primer carácter debe ser "R". A continuación, deben aparecer obligatoriamente dos o
+más "S". Finalmente, puede aparecer o no, un dígito del 3 al 8: "RSS", "RSSS"... "RSS3"...
+"RSS8", "RSSS3"... "RSSS8"... "RSSSSSSSSSSS7"...
+
+RSS+\d?[3-8]?
+
+8. Cualquier valor que contenga en primer lugar "COD", después tres dígitos (0-9) y,
+finalmente, uno o más caracteres cualesquiera: "COD645pera", "COD646manzana"...
+
+COD\d{3}.+
