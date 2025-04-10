@@ -1,0 +1,19 @@
+<!--
+Nombre: [Diego García Campos]
+Curso: [ASIR1]
+FECHA: [10/03/2025]
+Ejercicio: [EJERCICIO BASCIO VI XML]
+-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:element name="letras">
+  <xs:simpleType>
+    <xs:restriction base="xs:string">
+      <xs:pattern value="([A-Z][a-z])+" />
+    </xs:restriction>
+  </xs:simpleType>
+</xs:element>
+
+</xs:schema>
