@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/Ejercicio_06">
+
+  <!-- Libreria -->
+  <xs:simpleType name="tipoCodigo">
+    <xs:restriction base="xs:integer">
+      <xs:minInclusive value="1000"/>
+      <xs:maxInclusive value="9999"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <!-- Telefono -->
+  <xs:simpleType name="tipoTelefono">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="\d{9}"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <!-- Formato Libro -->
+  <xs:simpleType name="tipoFormato">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Rústica"/>
+      <xs:enumeration value="Tapa blanda"/>
+      <xs:enumeration value="Tapa dura"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <!-- Elemento raiz -->
+  <xs:element name="libreria">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="codigo" type="tipoCodigo"/>
+        <xs:element name="direccion" type="xs:string"/>
+        <xs:element name="telefono" type="tipoTelefono"/>
+        <xs:element name="propietario" type="tipoPropietario"/>
+        <xs:element name="libro" type="tipoLibro" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <!-- Propietario -->
+  <xs:complexType name="tipoPropietario">
+    <xs:sequence>
+      <xs:element name="nombre" type="xs:string"/>
+      <xs:element name="telefono" type="tipoTelefono" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <!-- Libro -->
+  <xs:complexType name="tipoLibro">
+    <xs:sequence>
+      <xs:element name="titulo" type="xs:string"/>
+      <xs:element name="autor" type="xs:string"/>
+      <xs:element name="formato" type="tipoFormato" minOccurs="0"/>
+      <xs:element name="publicacion" type="xs:gYear"/>
+      <xs:element name="precio" type="xs:decimal"/>
+      <xs:element name="cantidad" type="xs:integer" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+
+</xs:schema>
