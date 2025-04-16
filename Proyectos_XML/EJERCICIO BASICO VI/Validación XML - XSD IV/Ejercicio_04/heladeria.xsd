@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/Ejercicio_04">
+
+  <!-- Elemento raiz -->
+  <xs:element name="heladeria">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="helado" maxOccurs="unbounded">
+          <xs:complexType>
+            <!-- Dos sabores concretos validos -->
+            <xs:choice>
+              <!-- Opción 1: fresa + chocolate -->
+              <xs:sequence>
+                <xs:element name="fresa" type="xs:empty"/>
+                <xs:element name="chocolate" type="xs:empty"/>
+              </xs:sequence>
+              <!-- Opción 2: vainilla + chocolate -->
+              <xs:sequence>
+                <xs:element name="vainilla" type="xs:empty"/>
+                <xs:element name="chocolate" type="xs:empty"/>
+              </xs:sequence>
+            </xs:choice>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <!-- Tipo vacio-->
+  <xs:simpleType name="xs:empty">
+    <xs:restriction base="xs:string">
+      <xs:length value="0"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+</xs:schema>
