@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <!-- Version -->
+  <xs:simpleType name="tipoVersion">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="\d+\.\d+"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <!-- Elemento raiz -->
+  <xs:element name="faq">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="info" type="tipoInfo"/>
+        <xs:element name="part" type="tipoPart" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <!-- Tipo para "info" -->
+  <xs:complexType name="tipoInfo">
+    <xs:sequence>
+      <xs:element name="titulo" type="xs:string"/>
+      <xs:element name="autor" type="xs:string"/>
+      <xs:element name="email" type="xs:string" minOccurs="0"/>
+      <xs:element name="version" type="tipoVersion" minOccurs="0"/>
+      <xs:element name="fecha" type="xs:date" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <!-- Tipo para "part" -->
+  <xs:complexType name="tipoPart">
+    <xs:sequence>
+      <xs:element name="q" type="tipoPregunta" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <!-- Tipo para "q" -->
+  <xs:complexType name="tipoPregunta">
+    <xs:sequence>
+      <xs:element name="qtext" type="xs:string"/>
+      <xs:element name="a" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+</xs:schema>
